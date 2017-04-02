@@ -1,0 +1,12 @@
+{
+  "name": "chatrooms",
+  "version": "0.0.1",
+  "devDependencies": {
+    "jshint": "^2.9.4",
+    "watch": "^1.0.2"
+  },
+  "scripts": {
+    "lint": "jshint js/*.js",
+    "build": "watch 'npm run lint' js/"
+  }
+}
